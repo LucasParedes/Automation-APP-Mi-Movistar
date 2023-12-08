@@ -1,0 +1,4 @@
+node_modules
+cypress/downloads
+cypress/e2e/Marcos
+cypress/e2e/Local

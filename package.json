@@ -1,0 +1,37 @@
+{
+  "name": "lucas",
+  "version": "1.0.0",
+  "description": "Automatizaciones realizadas para la APP Mi Movistar",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:completa": "npx cypress run --env grepTags=regresion --browser chrome",
+    "cypress:lite": "npx cypress run --env grepTags=LITE --browser chrome",
+    "cypress:regMTV": "npx cypress run --env grepTags=mtv --browser chrome",
+    "cypress:Apis": "npx cypress run --env grepTags=api --browser chrome",
+    "cypress:regMTVPantallas": "npx cypress run --env grepTags=mtvPantalla --browser chrome",
+    "cypress:regMTVFlujos": "npx cypress run --env grepTags=mtvFlujo --browser chrome",
+    "cypress:regMTVTageos": "npx cypress run --env grepTags=mtvTageo --browser chrome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LucasParedes/Automation-Cypress-Mi-Movistar.git"
+  },
+  "author": "Lucas",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress-grep": "^3.0.4",
+    "cypress-mochawesome-reporter": "^3.3.0",
+    "cypress-multi-reporters": "^1.6.3",
+    "cypress-recurse": "^1.20.0",
+    "cypress-xpath": "^1.8.0"
+  },
+  "dependencies": {
+    "axe-core": "^4.6.3",
+    "cypress": "^12.8.1",
+    "cypress-axe": "^1.4.0",
+    "cypress-iframe": "^1.0.1",
+    "cypress-select-tests": "^1.7.1",
+    "jwt-decode": "^3.1.2"
+  }
+}

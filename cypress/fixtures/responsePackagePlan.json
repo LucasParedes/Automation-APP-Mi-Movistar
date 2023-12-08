@@ -1,0 +1,44 @@
+{
+  "clients": [
+    {
+      "builder": "Lucas",
+      "expectedData": [
+        {
+          "id": "5272914032",
+          "subscriptionType": "internet",
+          "hasCombo": true,
+          "main_package_id": "Movistar TV Digital Combo+"
+        }
+      ]
+    },
+    {
+      "builder": "Rossana",
+      "expectedData": [
+          {
+              "id": "+541136505889",
+              "subscriptionType": "mobile_postpaid",
+              "hasCombo": false,
+              "main_package_id": ""
+          },
+          {
+              "id": "+541128494738",
+              "subscriptionType": "mobile_postpaid",
+              "hasCombo": false,
+              "main_package_id": ""
+          },
+          {
+              "id": "+541164913972",
+              "subscriptionType": "mobile_postpaid",
+              "hasCombo": false,
+              "main_package_id": ""
+          },
+          {
+              "id": "5008697257",
+              "subscriptionType": "internet",
+              "hasCombo": false,
+              "main_package_id": ""
+          }
+      ]
+    }
+  ]
+}

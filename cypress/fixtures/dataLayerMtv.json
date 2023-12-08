@@ -1,0 +1,416 @@
+{   
+    "manage_with_mtv" :{
+        "webview" : {
+            "event"                 : "screenView",
+            "pageName"              : "movistarTV_administrar",
+            "eventFunctionality"    : "MovistarTVAdm",
+            "eventOrder"            : "000"
+        },
+        "button_see_current_plan": {
+            "event"                 : "movistarTVAdm",
+            "eventCategory"         : "movistarTVAdm",
+            "eventAction"           : "verMiPlanActual",
+            "eventLabel"            : "administrar",
+            "eventFunctionality"    : "MovistarTVAdm",
+            "eventOrder"            : "000"
+        },
+        "button_activate_combo": {
+            "event"                 : "movistarTVAdm",
+            "eventCategory"         : "movistarTVAdm",
+            "eventAction"           : "administraTusCuentas",
+            "eventLabel"            : "Activar Disney+ y Star+",
+            "eventFunctionality"    : "MovistarTVAdm",
+            "eventOrder"            : "000"
+        },
+        "button_register_mtv": {
+            "event"                 : "movistarTVAdm",
+            "eventCategory"         : "movistarTVAdm",
+            "eventAction"           : "administraTusCuentas",
+            "eventLabel"            : "Registrarme en Movistar TV",
+            "eventFunctionality"    : "MovistarTVAdm",
+            "eventOrder"            : "000"
+        }
+    },
+    
+    "manage_see_current_plan" : {
+        "webview" : {
+            "event"                 : "screenView",
+            "pageName"              : "movistarTV_administrar_miPlanActual",
+            "eventFunctionality"    : "MovistarTVAdm",
+            "eventOrder"            : "000"
+        },
+        "button_meet_other_plans": {
+            "event"                 : "movistarTVAdm",
+            "eventCategory"         : "movistarTVAdm",
+            "eventAction"           : "conocerOtrosPlanes",
+            "eventLabel"            : "miPlanActual",
+            "eventFunctionality"    : "MovistarTVAdm",
+            "eventOrder"            : "000"
+        }
+    },
+
+    "without_combo" : {
+        "webview" :{
+            "event"                 : "screenView",
+            "pageName"              : "movistarTV_administrar_noTenesPlanMovistarTVConDisneyStar",
+            "eventFunctionality"    : "MovistarTVAdm",
+            "eventOrder"            : "000"
+        },
+        "button_see_mtv_plans":{
+            "event"                 : "movistarTVAdm",
+            "eventCategory"         : "movistarTVAdm",
+            "eventAction"           : "verPlanesDeMovistarTV",
+            "eventLabel"            : "noTenesPlanMovistarTVConCombo",
+            "eventFunctionality"    : "MovistarTVAdm",
+            "eventOrder"            : "000"
+        }
+    },
+    "combo_to_activate" : {
+        "webview" :{
+            "event"                 : "screenView",
+            "pageName"              : "movistarTV_administrar_activaTuCuentaEnDisneyStar",
+            "eventFunctionality"    : "MovistarTVAdm",
+            "eventOrder"            : "000"
+        },
+        "button_activate_account":{
+            "event"                 : "movistarTVAdm",
+            "eventCategory"         : "movistarTVAdm",
+            "eventAction"           : "activarMiCuenta",
+            "eventLabel"            : "activaTuCuentaEnDisneyStar",
+            "eventFunctionality"    : "MovistarTVAdm",
+            "eventOrder"            : "000"
+        }
+    },
+    "combo_active" : {
+        "webview" :{
+            "event"                 : "screenView",
+            "pageName"              : "movistarTV_administrar_yaActivasteDisneyStar",
+            "eventFunctionality"    : "MovistarTVAdm",
+            "eventOrder"            : "000"
+        },
+        "button_go_star+":{
+            "event"                 : "movistarTVAdm",
+            "eventCategory"         : "movistarTVAdm",
+            "eventAction"           : "irAStar",
+            "eventLabel"            : "yaActivasteDisneyStar",
+            "eventFunctionality"    : "MovistarTVAdm",
+            "eventOrder"            : "000"
+        }
+    },
+
+    "manage_register_mtv_otp" : {
+        "webview" :{
+            "event"                 : "screenView",
+            "pageName"              : "movistarTV_administrar_yaContratasteMovistarTV",
+            "eventFunctionality"    : "MovistarTVAdm",
+            "eventOrder"            : "000"
+        },
+        "button_register":{
+            "event"                 : "movistarTVAdm",
+            "eventCategory"         : "movistarTVAdm",
+            "eventAction"           : "Registrarme",
+            "eventLabel"            : "yaContratasteMovistarTV",
+            "eventFunctionality"    : "MovistarTVAdm",
+            "eventOrder"            : "000"
+        }
+    },
+    "manage_register_mtv_idp" : {
+        "webview" :{
+            "event"                 : "screenView",
+            "pageName"              : "movistarTV_administrar_yaContratasteMovistarTV",
+            "eventFunctionality"    : "MovistarTVAdm",
+            "eventOrder"            : "000"
+        },
+        "button_go_mtv":{
+            "event"                 : "movistarTVAdm",
+            "eventCategory"         : "movistarTVAdm",
+            "eventAction"           : "irMovistarTV",
+            "eventLabel"            : "yaContratasteMovistarTV",
+            "eventFunctionality"    : "MovistarTVAdm",
+            "eventOrder"            : "000"
+        }
+    },
+    "manage_without_mtv" : {
+        "webview" :{
+            "event"                 : "screenView",
+            "pageName"              : "movistarTV_administrar_aunNoTenesMovistarTV",
+            "eventFunctionality"    : "MovistarTVAdm",
+            "eventOrder"            : "000"
+        },
+        "button_see_movistar_plans":{
+            "event"                 : "movistarTVAdm",
+            "eventCategory"         : "movistarTVAdm",
+            "eventAction"           : "verPlanesDeMovistarTV",
+            "eventLabel"            : "aunNoTenesMovistarTV",
+            "eventFunctionality"    : "MovistarTVAdm",
+            "eventOrder"            : "000"
+        }
+    },
+
+    "grid_plans" : {
+        "webview": {
+            "event"                 : "screenView",
+            "pageName"              : "movistarTV_oferta",
+            "eventFunctionality"    : "MovistarTV",
+            "eventOrder"            : "001"
+        },
+        "button_manage_account": {
+            "event"                 : "movistarTV",
+            "eventCategory"         : "movistarTV",
+            "eventAction"           : "administrarMiPlanMovistarTV",
+            "eventLabel"            : "administrarMiPlanMovistarTV",
+            "eventFunctionality"    : "MovistarTV",
+            "eventOrder"            : "001"
+        },
+        "button_active_combo": {
+            "event"                 : "movistarTV",
+            "eventCategory"         : "movistarTV",
+            "eventAction"           : "activarDisneyStar",
+            "eventLabel"            : "activarDisneyStar",
+            "eventFunctionality"    : "MovistarTV",
+            "eventOrder"            : "001"
+        },
+        "button_this_plan": {
+            "event"                 : "movistarTV",
+            "eventCategory"         : "movistarTV",
+            "eventAction"           : "quieroEstePlan",
+            "eventLabel"            : "TV Digital Combo+",
+            "eventFunctionality"    : "MovistarTV",
+            "eventOrder"            : "001"
+        }
+    },
+
+    "change_of_plan" : {
+        "webview": {
+            "event"                 : "screenView",
+            "pageName"              : "movistarTV_cambioDePlan",
+            "eventFunctionality"    : "MovistarTV",
+            "eventOrder"            : "002"
+        },
+        "button_see_current_plan": {
+            "event"                 : "movistarTV",
+            "eventCategory"         : "movistarTV",
+            "eventAction"           : "verMiPlanActual",
+            "eventLabel"            : "cambioDePlan",
+            "eventFunctionality"    : "MovistarTV",
+            "eventOrder"            : "002"
+        },
+        "button_change_plan": {
+            "event"                 : "movistarTV",
+            "eventCategory"         : "movistarTV",
+            "eventAction"           : "cambiarDePlan",
+            "eventLabel"            : "TV Digital Combo+",
+            "eventFunctionality"    : "MovistarTV",
+            "eventOrder"            : "002"
+        },
+        "button_keep_current_plan": {
+            "event"                 : "movistarTV",
+            "eventCategory"         : "movistarTV",
+            "eventAction"           : "conservarMiPlanActual",
+            "eventLabel"            : "cambioDePlan",
+            "eventFunctionality"    : "MovistarTV",
+            "eventOrder"            : "002"
+        }
+    },
+    "summary_change_plan": {
+        "webview": {
+            "event"                 : "screenView",
+            "pageName"              : "movistarTV_resumen_cambioDePlan",
+            "eventFunctionality"    : "MovistarTV",
+            "eventOrder"            : "003"
+        },
+        "button_confirm": {
+            "event"                 : "movistarTV",
+            "eventCategory"         : "movistarTV",
+            "eventAction"           : "confirmar_cambioDePlan",
+            "eventLabel"            : "TV Digital Combo+",
+            "eventFunctionality"    : "MovistarTV",
+            "eventOrder"            : "003"
+        }
+    },
+    "success_one_button_change_plan": {
+        "webview": {
+            "event"                 : "screenView",
+            "pageName"              : "movistarTV_gracias_cambioDePlan",
+            "eventFunctionality"    : "MovistarTV",
+            "eventOrder"            : "004"
+        },
+        "webview2": {
+            "event"                 : "transaccion",
+            "eventCategory"         : "transaccion",
+            "eventAction"           : "movistarTV_cambioDePlan",
+            "eventLabel"            : "TV Digital Combo+",
+            "eventFunctionality"    : "MovistarTV",
+            "eventOrder"            : "004"
+        },
+        "button_activate_account": {
+            "event"                 : "movistarTV",
+            "eventCategory"         : "movistarTV",
+            "eventAction"           : "activarMiCuenta",
+            "eventLabel"            : "gracias__cambioDePlan",
+            "eventFunctionality"    : "MovistarTV",
+            "eventOrder"            : "004"
+        }
+    },
+    "success_two_button_change_plan": {
+        "webview": {
+            "event"                 : "screenView",
+            "pageName"              : "movistarTV_gracias_cambioDePlan",
+            "eventFunctionality"    : "MovistarTV",
+            "eventOrder"            : "004"
+        },
+        "webview2": {
+            "event"                 : "transaccion",
+            "eventCategory"         : "transaccion",
+            "eventAction"           : "movistarTV_cambioDePlan",
+            "eventLabel"            : "TV Digital Combo+",
+            "eventFunctionality"    : "MovistarTV",
+            "eventOrder"            : "004"
+        },
+        "button_manage_movistartv": {
+            "event"                 : "movistarTV",
+            "eventCategory"         : "movistarTV",
+            "eventAction"           : "administrarMiMovistarTV",
+            "eventLabel"            : "gracias__cambioDePlan",
+            "eventFunctionality"    : "MovistarTV",
+            "eventOrder"            : "004"
+        }
+    },
+    
+
+    "select_lines" : {
+        "webview": {
+            "event"                 : "screenView",
+            "pageName"              : "movistarTV_elegiLaCuenta",
+            "eventFunctionality"    : "MovistarTV",
+            "eventOrder"            : "000"
+        },
+        "button_select_lines": {
+            "event"                 : "movistarTV",
+            "eventCategory"         : "movistarTV",
+            "eventAction"           : "seleccionDeCuenta",
+            "eventLabel"            : "elegiLaCuenta",
+            "eventFunctionality"    : "MovistarTV",
+            "eventOrder"            : "000"
+        }
+    },
+
+
+    "selection_deco": {
+        "webview" : {
+            "event"                 : "screenView",
+            "pageName"              : "movistarTV_ofertaDeco",
+            "eventFunctionality"    : "MovistarTV",
+            "eventOrder"            : "002"
+        },
+        "button_offer_deco_info": {
+            "event"                 : "movistarTV",
+            "eventCategory"         : "movistarTV",
+            "eventAction"           : "comoSeSiNecesitoUnDeco",
+            "eventLabel"            : "ofertaDeco",
+            "eventFunctionality"    : "MovistarTV",
+            "eventOrder"            : "002"
+        },
+        "button_continue_with_deco": {
+            "event"                 : "movistarTV",
+            "eventCategory"         : "movistarTV",
+            "eventAction"           : "agregarDeco",
+            "eventLabel"            : "ofertaDeco",
+            "eventFunctionality"    : "MovistarTV",
+            "eventOrder"            : "002"
+        },
+        "button_without_deco": {
+            "event"                 : "movistarTV",
+            "eventCategory"         : "movistarTV",
+            "eventAction"           : "continuarSinDeco",
+            "eventLabel"            : "ofertaDeco",
+            "eventFunctionality"    : "MovistarTV",
+            "eventOrder"            : "002"
+        }
+        
+    },
+
+    "deco_info": {
+        "webview": {
+            "event"                 : "screenView",
+            "pageName"              : "movistarTV_comoSeSiNecesitoUnDeco",
+            "eventFunctionality"    : "MovistarTV",
+            "eventOrder"            : "000"
+        }
+    },
+    "many_deco": {
+        "webview": {
+            "event"                 : "screenView",
+            "pageName"              : "movistarTV_masDeUnDeco_numeroContacto",
+            "eventFunctionality"    : "MovistarTV",
+            "eventOrder"            : "000"
+        },
+        "button_contact_ani_add": {
+            "event"                 : "movistarTV",
+            "eventCategory"         : "movistarTV",
+            "eventAction"           : "agregar",
+            "eventLabel"            : "masDeUnDeco_numeroContacto",
+            "eventFunctionality"    : "MovistarTV",
+            "eventOrder"            : "000"
+        }
+    },
+    "one_deco_delivery": {
+        "webview": {
+            "event"                 : "screenView",
+            "pageName"              : "movistarTV_mensajeUnDeco",
+            "eventFunctionality"    : "MovistarTV",
+            "eventOrder"            : "000"
+        },
+        "button_delivery_continue": {
+            "event"                 : "movistarTV",
+            "eventCategory"         : "movistarTV",
+            "eventAction"           : "continuarUnDeco",
+            "eventLabel"            : "mensajeUnDeco",
+            "eventFunctionality"    : "MovistarTV",
+            "eventOrder"            : "000"
+        }
+    },
+    "offer_packs": {
+        "webview": {
+            "event"                 : "screenView",
+            "pageName"              : "movistarTV_packsPremium",
+            "eventFunctionality"    : "MovistarTV",
+            "eventOrder"            : "003"
+        },
+        "button_offer_continue_all_packs": {
+            "event"                 : "movistarTV",
+            "eventCategory"         : "movistarTV",
+            "eventAction"           : "elegiTuPackPremiun",
+            "eventLabel"            : "Pack Futbol|HBO 8Pack|Prime|Paramount+",
+            "eventFunctionality"    : "MovistarTV",
+            "eventOrder"            : "003"
+        },
+        "button_offer_continue_not_packs": {
+            "event"                 : "movistarTV",
+            "eventCategory"         : "movistarTV",
+            "eventAction"           : "elegiTuPackPremiun",
+            "eventLabel"            : "",
+            "eventFunctionality"    : "MovistarTV",
+            "eventOrder"            : "003"
+        }
+    },
+    "contact_email": {
+        "webview": {
+            "event"                 : "screenView",
+            "pageName"              : "movistarTV_mailCuenta_OTP",
+            "eventFunctionality"    : "MovistarTV",
+            "eventOrder"            : "000"
+        },
+        "button_add": {
+            "event"                 : "movistarTV",
+            "eventCategory"         : "movistarTV",
+            "eventAction"           : "agregarMailCuenta",
+            "eventLabel"            : "mailCuenta_OTP",
+            "eventFunctionality"    : "MovistarTV",
+            "eventOrder"            : "000"
+        }
+    }
+}
+
+
+
